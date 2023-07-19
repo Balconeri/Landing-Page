@@ -1,0 +1,177 @@
+* {
+    color: white;
+    font-family:monospace;
+    border: 1px ;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header, .footer {
+    display: flex;
+    gap: 200px;
+    justify-content: space-around;
+    background: #1F2937;
+    padding: 0 20px;
+}
+
+.footer {
+    justify-content: center;
+    padding: 20px;
+    margin-top: auto;
+}
+
+.logo {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.header-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: space-around;    
+}
+
+.first-content {
+    background: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.top-content-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: flex-wrap;
+    max-width: 380px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.normal-text {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.top-content-right {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.button {
+    background: #3882F6;
+    margin: auto;
+    padding: 5px;
+    border-radius: 4px;
+    align-self: left; 
+    border: solid 1px white;
+    color: white;
+    font-weight: bold;
+
+}
+
+.leistung-image {
+    width: 150px;
+    border-radius: 8px;
+    border: solid 2px #3882F6;
+    align-self: center;
+}
+
+.second-title {
+    color: black;
+    font-weight: 900px;
+    font-size: 36px;
+}
+
+.leistungen-liste {
+    display: flex;
+    gap: 30px;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.leistung {
+    color: black;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.second-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.third-content {
+    background-color: #e5e7eb;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.quote {
+    color: black;
+    font-weight: lighter;
+    font-size: 26px;
+    font-style: italic;
+    max-width: 80vw;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.signature {
+    color: black;
+
+    font-size: 18px;
+    text-align: right;   
+    padding-right: 20px;
+}
+
+.fourth-content {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.action {
+    background-color: #3882F6;
+    padding: 20px 80px;
+    border-radius: 8px;
+    gap: 50px;
+    display: flex;
+}
+
+.action-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-title {
+    font-size: 20px;
+    font-weight:bold
+}
+
+.action-right {
+    display: flex;
+    justify-content: center;
+}
