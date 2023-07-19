@@ -1,7 +1,6 @@
 * {
     color: white;
-    font-family:monospace;
-    border: 1px ;
+    font-family: courier;
 }
 
 body {
@@ -129,6 +128,7 @@ body {
 .quote {
     color: black;
     font-weight: lighter;
+    font-weight: 100;
     font-size: 26px;
     font-style: italic;
     max-width: 80vw;
